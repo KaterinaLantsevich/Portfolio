@@ -1,8 +1,76 @@
-@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;1,400&display=swap');
 
 body {
-font-family: 'Tilt Neon', cursive;
-background: url('https://www.teahub.io/photos/full/34-340335_50-beautiful-and-minimalist-presentation-backgrounds-backgrounds-for.jpg');
+font-family: 'Playfair Display', serif;
+background-color: #ddd9d9;
 }
-h1 {
-font-family: 
+
+.text-center {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 400%;
+    font-style: italic;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 50%;
+  }
+
+  .img-kvadrat {
+    object-fit: cover;
+    width: 240px;
+    height: 220px;
+    padding: 100px;
+  }
+
+  .info-text {
+    text-align: center;
+    line-height: 1.5;
+    margin: auto;
+    width: 640px; 
+    padding: 60px;
+    color: #2E475D; 
+  }
+
+  a:link {
+    color: rgb(15, 14, 14);
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: rgb(14, 109, 14);
+  }
+  
+  a:hover {
+    color: rgb(32, 108, 36);
+    text-decoration: none;
+  }
+  
+  a:active {
+    color: rgb(28, 201, 80);
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  ul {
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+  }
+  .contact-info {
+    color:black;
+    line-height: 2.0;
+    margin-left: 20px;
+
+  }
+  .contact-title {
+    margin-top: 50px;
+  }
+  
+
